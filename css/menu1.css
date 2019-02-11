@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-webfont.eot');
+    src: url('bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bebasneue-webfont.woff2') format('woff2'),
+         url('bebasneue-webfont.woff') format('woff'),
+         url('bebasneue-webfont.ttf') format('truetype'),
+         url('bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'supermarketregular';
+    src: url('../font/supermarket-webfont.eot');
+    src: url('../font/supermarket-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/supermarket-webfont.woff2') format('woff2'),
+         url('../font/supermarket-webfont.woff') format('woff'),
+         url('../font/supermarket-webfont.ttf') format('truetype'),
+         url('../font/supermarket-webfont.svg#supermarketregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.m1{
+  width: 960px;
+  height: auto;
+  background-color: #fff;
+  position: absolute;
+  margin-top: 20px;
+}
+.m11{
+  width: 960px;
+  height: 1200px;
+  background-color: green;
+}
+.menu1 img{
+  width: 960px;
+  height: 400px;
+  background-color: blue;
+  margin-top: 0px;
+}
+.name {
+  width: 960px;
+  height: 1400px;
+  background-color: #fff;
+  margin-top: -3px;
+}
+.name h1{
+  font-family: 'supermarketregular';
+  font-size: 50px;
+  color: #d65453;
+  margin-top: 30px;
+  position: absolute;
+  margin-left: 30px;
+}
+.name h2{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #d65453;
+  margin-top: 120px;
+  position: absolute;
+  margin-left: 30px;
+}
+.name h3{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #d65453;
+  margin-top: 270px;
+  position: absolute;
+  margin-left: 30px;
+}
+.name h4{
+  font-family: 'supermarketregular';
+  font-size: 35px;
+  color: #d65453;
+  margin-top: 200px;
+  position: absolute;
+  margin-left: 30px
+}
+.name h5{
+  font-family: 'supermarketregular';
+  font-size: 25px;
+  color: #d65453;
+  margin-top: 700px;
+  position: absolute;
+  margin-left: 30px
+}
+.all{
+  width: 960px;
+  height: 80px;
+  /*background-color: orange;*/
+  margin-top: -340px;
+  position: absolute;
+}
+.all  h1{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #000;
+  margin-top: -140px;
+  text-align: center;
+  text-decoration: underline;
+}
+.all h1:hover{
+  color: #d65453;
+}
+.snap{
+  width: 960px;
+  height: 300px;
+  background-color: #fff;
+  margin-top: -280px;
+}
+.snap h1{
+  font-family: 'supermarketregular';
+  font-size: 40px;
+  color: #000;
+  margin-left: 300px;
+  position: absolute;
+  margin-top: 200px;
+}
+.snip1572 {
+  font-family: 'supermarketregular';
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  width: 300px;
+  width: 400px;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  background: #ffffff;
+  margin-top: 1450px;
+  margin-left: 280px;
+}
+
+.snip1572 *,
+.snip1572:before,
+.snip1572:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.snip1572 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+
+.snip1572:before,
+.snip1572:after {
+  content: '';
+  background-color: #000;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.snip1572:before {
+  width: 300px;
+  height: 2px;
+}
+
+.snip1572:after {
+  height: 300px;
+  width: 2px;
+}
+
+.snip1572 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.snip1572 h3 {
+  font-weight: 400;
+  padding: 8px 15px;
+  margin: 0;
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.snip1572 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1572:hover img,
+.snip1572.hover img {
+  zoom: 1;
+  filter: alpha(opacity=25);
+  -webkit-opacity: 0.25;
+  opacity: 0.25;
+}
+
+.snip1572:hover:before,
+.snip1572.hover:before,
+.snip1572:hover:after,
+.snip1572.hover:after {
+  opacity: 1;
+}
+
+.snip1572:hover:before,
+.snip1572.hover:before {
+  width: 50px;
+}
+
+.snip1572:hover:after,
+.snip1572.hover:after {
+  height: 50px;
+}
+
+.snip1572:hover h3,
+.snip1572.hover h3 {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 1;
+}

@@ -1,0 +1,299 @@
+.boxlogin {
+  width: 1280px;
+  height: 700px;
+  /*background-color: #fff;*/
+  /*background-color: green;*/
+  margin-top: -150px;
+}
+.box_login{
+  width: 960px;
+  height: 350px;
+  /*background-color: green;*/
+  position: absolute;
+  margin-top: 150px;
+  float: left;
+}
+.boxloginleft{
+  width: 480px;
+  height: 500px;
+  /*background-color: #fff;*/
+  float: left;
+
+}
+.boxloginright{
+  width: 480px;
+  height: 500px;
+  /*background-color:#fff;*/
+  float: left;
+}
+.namelogin{
+  width: 480px;
+  height: 60px;
+  /*background-color: #fff;*/
+}
+.namelogin h1{
+  font-family: 'supermarketregular';
+  font-size: 30px;
+  color: #d65453;
+  margin-left: 30px;
+  position: absolute;
+  margin-top: 20px;
+}
+.user{
+  width: 480px;
+  height: 440px;
+  background-color: #e3e3e5;
+}
+.boxusername{
+  width: 480px;
+  height: 60px;
+  background-color: #e3e3e5;
+}
+.boxusername h1{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #000;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+  background-color: #e3e3e5;
+}
+.boxpassword{
+  width: 480px;
+  height: 60px;
+  /*background: #fff;*/
+}
+.boxpassword h1{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #000;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+}
+.namesearch input {
+  width:350px;
+  height: 30px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 30px;
+  opacity: 10px;
+  /*background-color: #e3e3e5;*/
+}
+.passwordsearch input {
+  width:350px;
+  height: 30px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 30px;
+  opacity: 10px;
+  /*background-color: #e3e3e5;*/
+}
+.passwordsearch input {
+  width:350px;
+  height: 30px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 30px;
+  opacity: 10px;
+  /*background-color: #e3e3e5;*/
+}
+.oklogin{
+  width: 100px;
+  height: 30px;
+  background-color: #d65453;
+  margin-top: -225px;
+  margin-left: 30px;
+}
+.oklogin h1{
+  font-family: 'supermarketregular';
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 8px;
+}
+.forget h1{
+  font-family: 'supermarketregular';
+  font-size: 15px;
+  color: #000;
+  margin-left: 200px;
+  text-decoration: underline;
+}
+.forget h1:hover{
+  color: #d65453;
+}
+.register{
+  width: 480px;
+  height: 60px;
+  /*background-color: #fff;*/
+}
+.register h1{
+  font-family: 'supermarketregular';
+  font-size: 30px;
+  color: #d65453;
+  margin-left: 30px;
+  position: absolute;
+  margin-top: 20px;
+}
+.firstname{
+  width: 480px;
+  height: 60px;
+  /*background: #fff;*/
+  margin-top: -250px;
+}
+.firstname h1{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #000;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+}
+.fristnamesearch input {
+  width:350px;
+  height: 30px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 30px;
+  opacity: 10px;
+  /*background-color: #e3e3e5;*/
+}
+.lastname{
+  width: 480px;
+  height: 60px;
+  /*background: #fff;*/
+}
+.lastname h1{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #000;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+}
+.lastnamesearch input {
+  width:350px;
+  height: 30px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 30px;
+  opacity: 10px;
+  /*background-color: #e3e3e5;*/
+}
+.okregister{
+  width: 100px;
+  height: 30px;
+  background-color: #d65453;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.okregister h1{
+  font-family: 'supermarketregular';
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 8px;
+}
+.line{
+width: 960px;
+height: 20px;
+/*background-color: red;*/
+position: absolute;
+margin-top: 540px;
+}
+.line h4{
+	border-bottom: 1px solid rgb(0, 0, 0);
+}
+.boxline{
+  width: 425px;
+  height: 20px;
+  /*background-color: red;*/
+  margin-left: 30px;
+}
+.boxline h3{
+  	border-bottom: 1px solid rgb(0, 0, 0);
+}
+.boxline2{
+  width: 425px;
+  height: 20px;
+  /*background-color: red;*/
+  margin-left: 30px;
+}
+.boxline2 h3{
+  	border-bottom: 1px solid rgb(0, 0, 0);
+}
+.loginregister{
+  width: 400px;
+  height: 50px;
+  background-color: #3c5a9b;
+  margin-top: 560px;
+  margin-left: 270px;
+}
+.loginregister h1{
+  font-size: 20px;
+  color: #fff;
+  margin-left: 50px;
+  margin-top: 15px;
+  position: absolute;
+}
+.loginregister h2{
+  font-size: 20px;
+  color: #fff;
+  margin-left: 50px;
+  margin-top: 15px;
+  position: absolute;
+  margin-left: 80px;
+}
+
+.search {
+  width: 340px;
+  height: 55px;
+  position: relative;
+  padding-top: 30px;
+  margin-left: 250px;
+
+}
+
+.searchTerm {
+  float: left;
+  width: 99%;
+  border: 1px solid #d65453;
+  padding: 5px;
+  height: 32px;
+  outline: none;
+  color: #d58e32;
+  font-size: 15px;
+}
+
+.searchTerm:focus{
+  color: #000;
+}
+
+.searchButton {
+  position: absolute;
+  width: 85px;
+  height: 32px;
+  border: 1px solid #d65453;
+  background: none;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.searchButton h1 {
+  font-family: 'supermarketregular';
+  font-size: 13px;
+  color: #d65453;
+
+}
+.login1  a:hover{
+  color:  #d65453;
+
+}
+.login1 a:hover, .listmenu li a.active{
+  color:  #d65453;
+  text-decoration: underline;
+}

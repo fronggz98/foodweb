@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'supermarketregular';
+    src: url('../font/supermarket-webfont.eot');
+    src: url('../font/supermarket-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/supermarket-webfont.woff2') format('woff2'),
+         url('../font/supermarket-webfont.woff') format('woff'),
+         url('../font/supermarket-webfont.ttf') format('truetype'),
+         url('../font/supermarket-webfont.svg#supermarketregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bromoregular';
+    src: url('../font/bromo-webfont.eot');
+    src: url('../font/bromo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/bromo-webfont.woff2') format('woff2'),
+         url('../font/bromo-webfont.woff') format('woff'),
+         url('../font/bromo-webfont.ttf') format('truetype'),
+         url('../font/bromo-webfont.svg#bromoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clearfix {
+  clear: both;
+  content: '';
+  display: table;
+}
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  /*background-color: green;*/
+}
+.listmenu{
+  width: 960px;
+  height: 120px;
+  /*background-color: red;*/
+}
+.listmenu li a{
+  font-family: 'supermarketregular';
+  font-size: 30px;
+  color: #d65453;
+  float: left;
+  margin-top: 40px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+.listmenu a:hover {
+  text-decoration: underline;
+  color: #d65453;
+}
+
+.login {
+  width: 215px;
+  height: 70px;
+  /*background-color: orange;*/
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-left: 730px;
+  position: absolute;
+  border: solid 2px #d65453;
+}
+.login h1{
+  font-size: 40px;
+  margin-top: 10px;
+  color: #d65453;
+  margin-left: -130px;
+}
+.login1{
+  width: 200px;
+  height: 60px;
+  /*background-color: pink;*/
+  margin-top: -50px;
+  margin-left: 85px;
+}
+.login1 a{
+  font-family: 'supermarketregular';
+  font-size: 30px;
+  color: #d65453;
+  margin-left: -8px;
+  margin-top: -7px;
+  position: absolute;
+  text-decoration: none;
+}
+.login1 a:hover{
+  text-decoration: underline;
+  color: #d65453;
+}
+/*.boxpost{
+  width: 1280px;
+  height: 1200px;
+  /*background-color: #fff;*/
+  /*margin-left: 75px;
+}*/
+.post{
+  width: 960px;
+  height: 828px;
+  background-color: #f4f0f0;
+  margin-top: 50px;
+  position: absolute;
+}
+.steppost{
+  width: 960px;
+  height: 300px;
+  background-color: #f4f0f0;
+  margin-top: -50px;
+
+}
+.piccamera{
+  width: 960px;
+  height: 150px;
+  background-color: #f4f0f0;
+}
+.piccamera h1{
+  font-size: 50px;
+  color: #a7a3a3;
+  margin-left: 450px;
+  margin-top: 60px;
+  position: absolute;
+}
+.piccamera h2{
+  font-family: 'supermarketregular';
+  font-size: 30px;
+  margin-top: 140px;
+  margin-left: 400px;
+  position: absolute;
+  color: #a7a3a3;
+}
+.user{
+  width: 960px;
+  height: 40px;
+  background-color: red;
+}
+.boxusername{
+  width: 960px;
+  height: 60px;
+  background: #f4f0f0;
+}
+.boxusername h1{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #000;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+}
+.namesearch input {
+  width:750px;
+  height: 30px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 180px;
+  margin-top: 15px;
+  opacity: 10px;
+  background-color: #fff;
+}
+.boxusername1{
+  width: 960px;
+  height: 150px;
+  background: #f4f0f0;
+}
+.boxusername1 h1{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #000;
+  margin-left: 30px;
+  margin-top: 50px;
+  position: absolute;
+}
+.namesearch1 input {
+  width:750px;
+  height: 80px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 180px;
+  margin-top: 25px;
+  opacity: 10px;
+  background-color: #fff;
+}
+.boxusername2{
+  width: 960px;
+  height: 60px;
+  background: #f4f0f0;
+}
+.boxusername2 h1{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #000;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+}
+.namesearch2 input {
+  width:750px;
+  height: 30px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 180px;
+  margin-top: 15px;
+  opacity: 10px;
+  background-color: #fff;
+}
+.boxusername2{
+  width: 960px;
+  height: 150px;
+  background: #f4f0f0;
+}
+.boxusername2 h1{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #000;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+}
+.namesearch2 input {
+  width:750px;
+  height: 60px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 180px;
+  margin-top: 5px;
+  opacity: 10px;
+  background-color: #fff;
+}
+.boxusername3{
+  width: 960px;
+  height: 60px;
+  background: #f4f0f0;
+}
+.boxusername3 h1{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #000;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+}
+.namesearch3 input {
+  width:750px;
+  height: 30px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 180px;
+  margin-top: 15px;
+  opacity: 10px;
+  background-color: #fff;
+}
+.boxusername3{
+  width: 960px;
+  height: 150px;
+  background: #f4f0f0;
+}
+.boxusername3 h1{
+  font-family: 'supermarketregular';
+  font-size: 20px;
+  color: #000;
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+}
+.namesearch3 input {
+  width:750px;
+  height: 30px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 180px;
+  margin-top: 15px;
+  opacity: 10px;
+  background-color: #fff;
+}
+.namesearch4 input {
+  width:750px;
+  height: 30px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 180px;
+  margin-top: 15px;
+  opacity: 10px;
+  background-color: #fff;
+}
+.namesearch5 input {
+  width:750px;
+  height: 30px;
+  border: 0;
+  box-sizing: border-box;
+  margin-left: 180px;
+  margin-top: 15px;
+  opacity: 10px;
+  background-color: #fff;
+
+}
+.box h1{
+  font-size: 18px;
+  color: #000;
+  position: absolute;
+  margin-left: 440px;
+  margin-top: -5px;
+}
+.box h1:hover{
+  color: #d85e5d;
+}
+.submit{
+  width: 960px;
+  height: 300px;
+  /*background-color: orange;*/
+  margin-top: 900px;
+}
